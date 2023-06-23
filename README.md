@@ -9,4 +9,5 @@ Detailed Pet Profiles: Each pet on PetConnect has a comprehensive profile that i
 
 Chat and Connect: Once you find a pet that captures your heart, initiate a conversation with the shelter or the pet's current caretaker through our in-app messaging system. Ask questions, discuss adoption requirements, and schedule visits to meet your potential new family member.
 
-![Login.jpg]( {https://github.com/sekaraishwara/Adoptapet-Mobile-Application/tree/main/Screenshots} )
+![Login](https://github.com/sekaraishwara/Adoptapet-Mobile-Application/assets/136554697/8d3f1190-b188-478e-a993-e9bb67980003)
+
