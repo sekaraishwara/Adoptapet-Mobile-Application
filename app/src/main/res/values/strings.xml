@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Adoptapet</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_select_pet_location">SelectPetLocation</string>
+    <string name="Map_API_Key">AIzaSyDYoU1rdHGmL8K_FIaG54KRKOegWaiwsC0</string>
+    <string name="title_activity_view_pets_location">ViewPetsLocation</string>
+    <string name="title_activity_update_pet_location">UpdatePetLocation</string>
+    <string name="title_activity_maps">MapsActivity</string>
+</resources>

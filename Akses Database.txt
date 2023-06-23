@@ -1,0 +1,6 @@
+Database Access
+email = adoptapetapp12@gmail.com
+pass = Catanddog123_
+
+link access
+https://console.firebase.google.com/project/adoptapetnew/database/adoptapetnew-default-rtdb/data

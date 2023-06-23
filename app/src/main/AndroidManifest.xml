@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.company.petadoptionapp" >
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logoadoptapet"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logoadoptapet"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PetAdoptionApp" >
+
+        <!--
+             TODO: Before you run your application, you need a Google Maps API key.
+
+             To get one, follow the directions here:
+
+                https://developers.google.com/maps/documentation/android-sdk/get-api-key
+
+             Once you have your API key (it starts with "AIza"), define a new property in your
+             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
+             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyD46r0KM5ViW1wIbojq-_9bjDTKqWYzYUc" />
+
+        <activity
+            android:name=".UpdatePetLocation"
+            android:exported="false"
+            android:label="@string/title_activity_update_pet_location" />
+        <activity
+            android:name=".EditLostPets"
+            android:exported="false" />
+        <activity
+            android:name=".EditPets"
+            android:exported="false" />
+        <activity
+            android:name=".ViewLostPets"
+            android:exported="false" />
+        <activity
+            android:name=".ViewPetsLocation"
+            android:exported="false"
+            android:label="@string/title_activity_view_pets_location" />
+        <activity
+            android:name=".AddPetsNGO"
+            android:exported="false" />
+        <activity
+            android:name=".HomepageNGO"
+            android:exported="false" />
+        <activity
+            android:name=".SignUpNGO"
+            android:exported="false" />
+        <activity
+            android:name=".LoginNGO"
+            android:exported="false" />
+        <activity
+            android:name=".ChatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SetPetLocation"
+            android:exported="false"
+            android:label="@string/title_activity_select_pet_location" />
+        <activity
+            android:name=".AddPets"
+            android:exported="false" />
+        <activity
+            android:name=".ViewPets"
+            android:exported="false" />
+        <activity
+            android:name=".UserProfile"
+            android:exported="false" />
+        <activity
+            android:name=".ManageLostPets"
+            android:exported="false" />
+        <activity
+            android:name=".ManagePets"
+            android:exported="false" />
+        <activity
+            android:name=".UserSignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ForgotPassword"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
